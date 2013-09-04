@@ -1,0 +1,7 @@
+math functions
+
+clear function
+button handler events - insert button value into DIV
+
+equals function - Take values in DIV and calculate.
+handle operator clicked multiple times.
