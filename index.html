@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<script type="text/javascript" src="Calculator.js"></script>
+		<link rel="stylesheet" type="text/css" href="calc.css" />
+	<head>
+	<body>
+		<table>
+			<tr> 
+				<td height="14px">
+					<div id="window">&nbsp </div>
+				</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td><input type="button" value="1" onClick="addtoWindow(this.value)"/></td>
+				<td><input type="button" value="2" onClick="addtoWindow(this.value)"/></td>
+				<td><input type="button" value="3" onClick="addtoWindow(this.value)"/></td>
+				<td><input type="button" value="+" onClick="addOpstoWindow(this.value)"/></td>
+			</tr>
+			<tr>
+				<td><input type="button" value="4" onClick="addtoWindow(this.value)"/></td>
+				<td><input type="button" value="5" onClick="addtoWindow(this.value)"/></td>
+				<td><input type="button" value="6" onClick="addtoWindow(this.value)"/></td>
+				<td><input type="button" value="-" onClick="addOpstoWindow(this.value)"/></td>
+			</tr>
+			<tr>
+				<td><input type="button" value="7" onClick="addtoWindow(this.value)"/></td>
+				<td><input type="button" value="8" onClick="addtoWindow(this.value)"/></td>
+				<td><input type="button" value="9" onClick="addtoWindow(this.value)"/></td>
+				<td><input type="button" value="*" onClick="addOpstoWindow(this.value)"/></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="button" value="0" onClick="addtoWindow(this.value)"/></td>
+				<td></td>
+				<td><input type="button" value="/" onClick="addOpstoWindow(this.value)"/></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="button" value="Clear" class="bigbtn" onClick="clearWindow()"/></td>
+				<td colspan="2"><input type="button" value="=" class="bigbtn" onClick="doMath()"/></td>
+			</tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,18 @@
+table {
+background-color: #333333;
+width: 120px;
+}
+
+#window  {
+background-color: #FFFFFF;
+}
+
+table input {
+text-align: center;
+width: 25px;
+}
+
+input.bigbtn {
+width: 50px;
+}
+
